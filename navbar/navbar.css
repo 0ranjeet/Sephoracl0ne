@@ -1,0 +1,355 @@
+html, body{
+    padding: 0;
+    margin: 0;
+  }
+body{
+    cursor: pointer;
+}
+#topcode{
+    color: red;
+}
+#bcode{
+    color: black;
+}
+#navbtm a{
+    text-decoration: none;
+    color: white;
+}
+#close{
+    text-align:right ;
+    font-size: large;
+    font-weight: 300;
+    margin-left: 96%;
+}
+#close:hover{
+    border: 1px dotted black;
+}
+*{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+line-height: 17.5px;
+}
+
+#top{
+ text-align: center;
+ background-color: gainsboro;
+ padding: 20px;
+}
+#top:hover{
+    text-decoration: underline;
+}
+#divm{
+    margin:-12% 50%;
+    border-radius: 5px;
+    padding: 20px;
+    background-color:white;
+    z-index: 3;
+    position: absolute;
+    width: 550px;
+
+}
+#freeshiplearn  {
+    text-decoration: underline;
+    color: blue;
+}
+ 
+#freeship{
+    padding: 10px;
+    text-align: left;
+    border: 0.5px solid black;
+    background-color:white;
+    z-index: 2;
+}
+#freeship p{
+    font-size: 15px;
+    line-height: 17.5px;
+}
+#btm1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5% 7% ;
+}
+#logo{
+    padding: 5px;
+    width: 160px;
+    height: 48px;
+} 
+  input.nosubmit {
+    width: 443px;
+    border: 1px solid #555;
+    border-radius: 15px;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background-color: gainsboro;
+    background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+  }
+  .nosubmit{
+    background-color: gainsboro;
+    width: 443px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  #store{
+    display: flex;
+  }
+
+  #store img{
+    height: 34px;
+    width: 34px;
+   
+  }
+#com,#sign{
+    padding: 10px;
+}
+  #ssc{
+    display: block;
+  }
+ .fa-heart,.fa-basket-shopping{
+    color: black;
+   font-size:  24px;
+ }
+ #icons{
+    display: flex;
+    padding: 5px;
+ }
+#icons div{
+   margin-left: 15px;
+}
+
+#btm2{
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+#btm2menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 8%;
+
+}
+#btm2menu>div{
+    padding: 10px;
+}
+#ubody{
+    z-index: 3;
+    position: absolute;
+    width:500px;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+#newm{
+    display: flex;
+     padding:  0% 7% ; 
+    width: 100%;
+    position: absolute;
+    z-index:2;
+    background-color:white;
+    
+}
+#newm div{
+    margin-left:10px;
+    padding: 10px;
+}
+#newm a{
+    color: black;
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+}
+#newm a:hover{
+    text-decoration: underline;
+}
+#al_new_m,#al_new_m1{
+    margin: 2% 2% 5% 1%;
+    font-weight: 900;
+}
+#al_new_mi{
+    margin-left:25% ;
+    display:flex;
+}
+#al_new_mi img{
+    height: 300px;
+    width: 300px;
+    margin:7% 3% ;
+}
+#signbox{
+   margin: -10% 65%;
+   position: absolute;
+   background-color: white;
+   z-index: 2;
+   border-radius: 10px;
+   padding: 3%;
+
+}
+#signbox input{
+    color: gainsboro;
+    padding: 10px;
+    border: gainsboro 0.5px solid;
+    border-radius: 5px;
+   
+}
+#signbox h3{
+    margin-left: 15px;
+}
+#lkeep{
+    display: flex;   
+}
+#lkeep i{
+    font-size: 15px;
+    margin:  19px 0px 0px 5px;
+}
+#check{
+    height: 20px;
+    width: 20px;
+    margin:  15px 5px 0px 5px;
+}
+#keep{
+    display: flex;
+    justify-content: space-between;
+}
+#rkeep{
+    color: rgb(0, 149, 242);
+}
+.signbox_input{
+    display: block;
+    margin: 10px 0px 0px 10px;
+    width: 365px;
+}
+#signbox_signin{
+    padding: 10px 50px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 2% 50% 3% 0% ;
+}
+hr{
+    background-color: gainsboro;
+    height:  0.5px ;
+    margin: 10% -12%;
+    border-width:0;
+}
+#create{
+    padding: 10px 50px;
+    margin: 2% 40% 3% 0%;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#name,#birthday,#date{
+    display: flex;
+    gap:5px;
+    margin:5px;
+}
+#bi{
+    width:50%;
+}
+
+#birthday img{
+    height: 20px;
+    width: 20px;
+}
+#footer{
+    background-color: black;
+}
+#mainbtm{
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+   
+}
+#maibtm img{
+    width: 120%;
+}
+#mainbtm1{
+    display: flex;
+    gap:50px;
+    margin:2% 7%;
+    height: 70px;
+  
+}
+#mainbtm1>div{
+    display: flex;
+}
+#mainbtm1 a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+#mainbtm1 img{
+    margin-top: 10px;
+}
+#mainbtm a:hover{
+    text-decoration: underline;
+}
+.btmhr{
+    color: gainsboro;
+    background-color: white;
+    height: 0.7px;
+    margin: 2% 3%;
+}
+#btmm{
+    display: flex;
+    margin: 2% 7% ;
+    gap: 20px;
+    color: white;
+}
+#btmm a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+
+}
+#btmm img{
+    height: 20px;
+    width: 35px;
+    margin: 15px;
+}
+#btmm a:hover{
+    text-decoration: underline;
+}
+.lang{
+    display: flex;
+}
+#beautiful{
+    font-size: 28px;
+    line-height: 35px;
+    
+}
+#sopheremail{
+    margin-top: 100%
+}
+#sophere{
+    padding: 5px;
+    border-radius: 5px;
+}
+#submit{
+   color: white;
+   border: 2px solid white;
+   background-color: black;
+   margin-left: 5px;
+   border-radius: 45px;
+   padding: 5px 10px;
+}
+#footersocial{
+    display: flex;
+    color: white;
+    margin: 2% 5%;
+    gap: 35%;
+}
+#footersocial a{
+    text-decoration: none;
+    color: white;
+
+}
+#footersocial a:hover{
+    text-decoration: underline;
+}
+#footersocial i{
+    font-size: 25px;
+    margin: 10px;
+}
