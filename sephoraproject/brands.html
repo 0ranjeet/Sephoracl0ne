@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src='./data.js'>
-    </script>
+    <title>Brands</title>
  <link rel="stylesheet" href="nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet"> 
    <link rel="stylesheet" href="makeuppage.css">
     <script src="https://kit.fontawesome.com/629044acfa.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6ce38a8a26.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/navbar/navbar.css">
+    <link rel="icon" href="https://www.sephora.com/img/ufe/favicon.ico"/>
+    <link rel="stylesheet" href="/viewproduct/view.css">
     <style>
 
         body {
@@ -23,7 +25,7 @@
             height: 100vh;
         }
 
-        #brands {
+        #brands1 {
             width: 20%;
             height: 90%;
             overflow-y: scroll;
@@ -50,12 +52,12 @@
 </style>
 </head>
 <body>
-   
+   <div id="navbar"></div>
     
    
 
     <main id="main">
-        <div id="brands">
+        <div id="brands1">
             <h1>Brands</h1>
         </div>
 
@@ -65,9 +67,20 @@
         </div>
 
     </main> 
-    
+    <div id="footer"></div>
 </body>
 </html>
-<script src="data.js"></script>
-<script src="brands.js">
+<script src="/sephoraproject/data.js"></script>
+<script src="/sephoraproject/brands.js">
 </script>
+<script type="module">
+    import {navimp,footimp} from "/navbar/navimp.js"
+    document.querySelector("#navbar").innerHTML=navimp();
+ 
+    
+    document.querySelector("#footer").innerHTML=footimp();
+
+</script>
+<script src="/sephoracl0ne/viewproduct/viewproduct.js"></script>
+<script src="/sephoracl0ne/navbar/navbar.js"></script>
+<script src="/sephoracl0ne/navbar/signup.js"></script>

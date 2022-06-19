@@ -1,4 +1,4 @@
-var sephoraItemsData = JSON.parse(localStorage.getItem('sephoraItemsData'));
+var sephoraItemsData = JSON.parse(localStorage.getItem('sephoraItemsData')) || [];
 var brandCounts = {}
 sephoraItemsData.map(function (item) {
     if (!brandCounts[item.brand]) {
@@ -107,7 +107,7 @@ document.querySelector("#total").innerHTML=arr.length+"  Results Found";
     function displayproduct(){
         let clcikedp=ele
         localStorage.setItem("displayp",JSON.stringify(clcikedp))
-        window.location.href="/sephoraclone/viewproduct/viewproduct.html"
+        window.location.href="/viewproduct/viewproduct.html"
     }
     var i=document.createElement("i");
     p1.textContent=ele.brand;
@@ -126,12 +126,12 @@ document.querySelector("#total").innerHTML=arr.length+"  Results Found";
     div2.append(img1,p1,head1,div1,head3,btn);
     div2.style.textAlign="center";
     div2.style.height="400px"
-
+  
     document.querySelector("#items").append(div2); 
     })
 }
 
-var basketItem=[];
+var basketItem=JSON.parse(localStorage.getItem("basketItem"))||[];
 function addItem(ele){
     basketItem.push(ele);
     alert("Successfully Added to the Basket");

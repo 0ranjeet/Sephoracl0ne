@@ -5,7 +5,7 @@ function navimp(){
         <div id="btm1">
             <div id="search">
             
-                <div id="logo"><a href="/sephoraclone/index/index.html"><img src="https://www.sephora.com/img/ufe/logo.svg" alt=""></a></div></div>
+                <div id="logo"><a href="/index.html"><img src="https://www.sephora.com/img/ufe/logo.svg" alt=""></a></div></div>
                 <div class="nosubmit">
                     <input class="nosubmit" type="search" placeholder="Search">
                 </div>
@@ -24,7 +24,7 @@ function navimp(){
                         <path d="M11.99 2C6.471 2 2 6.477 2 12s4.472 10 9.99 10a9.936 9.936 0 0 0 5.822-1.874L22 21.25l-1.209-4.517A9.965 9.965 0 0 0 21.98 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M11.99 2.5C6.748 2.5 2.5 6.753 2.5 12s4.249 9.5 9.49 9.5c2.064 0 3.973-.66 5.53-1.78a.5.5 0 0 1 .422-.077l3.351.9-.985-3.68a.5.5 0 0 1 .043-.367A9.464 9.464 0 0 0 21.479 12a.5.5 0 0 1 1 0c0 1.726-.417 3.355-1.154 4.793l1.158 4.327a.5.5 0 0 1-.613.613l-3.962-1.063a10.435 10.435 0 0 1-5.919 1.83C6.196 22.5 1.5 17.799 1.5 12c0-5.798 4.696-10.5 10.49-10.5a.5.5 0 1 1 0 1z" fill="currentColor"></path><path d="M18.5 10a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9zm0 1a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11z" fill="currentColor"></path><path fill="currentColor" d="m14.692 8.885 6.769-7.193.667.629-6.769 7.192z"></path></g></svg></span></div>
                         <div id="like"><a href="shoipnglist.html"><i class="fa-regular fa-heart"></i></a></div>
 
-                        <div id="basket"><a href="">
+                        <div id="basket"><a href="/Newfile/basket.html">
                             <i class="fa-solid fa-basket-shopping" ></i>
                         </a></div>
                     </div>
@@ -32,9 +32,9 @@ function navimp(){
                 
                     <div id="btm2">
                     <div id="btm2menu">
-                        <div onmouseover="newm(this)"  id="new"><a href="">New</a></div>
-                        <div onmouseover="newb(this)"  id="brands"><a href="/sephoraclone/sephoraproject/brands.html">Brands</a></div>
-                        <div id="makeup" onmouseover="newmakeup(this)"><a href="">Makeup</a></div>
+                        <div onmouseover="newm(this)"  id="new"><a href="/makeup/new.html">New</a></div>
+                        <div onmouseover="newb(this)"  id="brands"><a href="/sephoraproject/brands.html">Brands</a></div>
+                        <div id="makeup" onmouseover="newmakeup(this)"><a href="/makeup/makeup.html">Makeup</a></div>
                         <div id="skincare" onmouseover="newskin(this)"><a href="">Skincare</a></div>
                         <div id="hair"><a href="">Hair</a></div>
                         <div id="fragrance"><a href="">Fragrance</a></div>

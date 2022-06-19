@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viewproduct</title>
+    <link rel="stylesheet" href="/navbar/navbar.css">
+    <script src="https://kit.fontawesome.com/6ce38a8a26.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://www.sephora.com/img/ufe/favicon.ico"/>
+    <link rel="stylesheet" href="/viewproduct/view.css">
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div id="view">
+        
+    </div>
+    
+    <div id="footer"></div>
+
+</body>
+</html>
+<script type="module">
+    import {navimp,footimp} from "/navbar/navimp.js"
+    document.querySelector("#navbar").innerHTML=navimp();
+ 
+    
+    document.querySelector("#footer").innerHTML=footimp();
+
+</script>
+<script src="/viewproduct/viewproduct.js"></script>
+<script src="/navbar/navbar.js"></script>
+<script src="/navbar/signup.js"></script>
