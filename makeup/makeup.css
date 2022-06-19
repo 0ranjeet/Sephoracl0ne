@@ -55,9 +55,9 @@
     border-left: 3px solid transparent;
   }
   nav ul li.active a{
-    color: cyan;
+    color: black;
     /* background: #1e1e1e; */
-    border-left-color: cyan;
+    border-left-color: white;
   }
   nav ul li a:hover{
     background: orange;
@@ -83,12 +83,12 @@
   }
   nav ul li.active ul li a{
     color: #e6e6e6;
-    background: #1b1b1b;
+    background: white;
     border-left-color: transparent;
   }
   nav ul ul li a:hover{
-    color: cyan!important;
-    background: #1e1e1e!important;
+    color: black!important;
+    /* background: #1e1e1e!important; */
   }
   nav ul li a span{
     position: absolute;

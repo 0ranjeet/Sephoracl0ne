@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="next.html">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="makeup.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  
+    <link rel="stylesheet" href="/sephoraclone/navbar/navbar.css">
+    <script src="https://kit.fontawesome.com/6ce38a8a26.js" crossorigin="anonymous"></script>
     <link rel="icon" href="https://www.sephora.com/img/ufe/favicon.ico"/>
     <title>Makeup | Sephora</title>
     </head>
@@ -163,3 +166,13 @@
 </body>
 </html>
 <script src="./new.js"></script>
+<script type="module">
+  import {navimp,footimp} from "/sephoraclone/navbar/navimp.js"
+  document.querySelector("#navbar").innerHTML=navimp();
+
+  
+  document.querySelector("#footer").innerHTML=footimp();
+
+</script>
+<script src="/sephoraclone/navbar/navbar.js"></script>
+<script src="/sephoraclone/navbar/signup.js"></script>
