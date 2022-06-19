@@ -43,3 +43,14 @@ JavaScript : 63.5%
 * here user will get a from to fill
 * After creating new account he will be redirected to the home page to proceed further
 ![name-of-you-image](https://github.com/0ranjeet/sephoraclone/blob/main/images/Screenshot%202022-06-18%20171322.png?raw=true)
+
+
+## Product Page  -
+* In this paga user will be able to see produts & add product to cart ,filter prpoduct according to his preference.
+![name-of-you-image](https://raw.githubusercontent.com/0ranjeet/sephoraclone/766aa6a92f00e392efb504ccd1e34da77012738b/images/Screenshot%202022-06-19%20192817.png)
+## Product Detail-
+* In this page user can view any product details it will apppear on clicking on any product images.
+![name-of-you-image](https://raw.githubusercontent.com/0ranjeet/sephoraclone/766aa6a92f00e392efb504ccd1e34da77012738b/images/Screenshot%202022-06-19%20193451.png)
+## Cart-
+* This the cart page here user can checkout .
+![name-of-you-image](https://github.com/0ranjeet/sephoraclone/blob/main/images/Screenshot%202022-06-18%20171322.png?raw=true)
