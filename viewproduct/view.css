@@ -1,0 +1,30 @@
+#view{
+    display: flex;
+    margin: 2% 10%;
+    gap: 55px;
+}
+#view img{
+    width:400px;
+    height: 400px;
+} 
+#view span{
+    margin: 5px;
+}
+i{
+    font-size: 20px;
+}
+#view a:hover{
+   text-decoration: underline;
+}
+#shipped{
+    background-color: gainsboro;
+    padding: 25px;
+}
+#additem{
+    color: white;
+    background-color: rgb(207,17,53);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 2% 3%;
+    width: 120px;
+}

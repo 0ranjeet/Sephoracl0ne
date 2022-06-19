@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="next.html">
+    <link rel="stylesheet" href="makeup.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  
+    <link rel="stylesheet" href="/sephoraclone/navbar/navbar.css">
+    <script src="https://kit.fontawesome.com/6ce38a8a26.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://www.sephora.com/img/ufe/favicon.ico"/>
+    <title>Makeup | Sephora</title>
+    </head>
+    <style>
+  
+    </style>
+</head>
+<body>
+       <div id="maindiv">
+        <div id="productleft">
+          <div>
+            <h5>Makeup</h5>
+            <h1>Makeup</h1>
+          </div>
+          <div>
+            <a href="#"><h5>Face (808)</h5></a>
+            <a href="#"><h5>Eye (890)</h5></a>
+            <a href="#"><h5>Lip (508)</h5></a>
+            <a href="#"><h5>Cheek (239)</h5></a>
+            <a href="#"><h5>Value & Gift Sets (292)</h5></a>
+            <a href="#"><h5>Makeup Palettes (189)</h5></a>
+            <a href="#"><h5>Brushes & Applicators (246)</h5></a>
+            <a href="#"><h5>Accessories (93)</h5></a>
+            <a href="#"> <h5>Nail (57)</h5></a>
+            <a href="#"><h5>Vegan (595)</h5></a>
+            <a href="#"><h5>Mini Size (286)</h5></a>
+          </div>
+
+          <div> <h5>Filters</h5></div>
+
+           <div class="btn">
+              <span class="fas fa-bars"></span>
+           </div>
+           <nav class="sidebar">
+              <!-- <div class="text">
+                 Side Menu
+              </div> -->
+              <ul>
+                 <!-- <li class="active"><a href="#">Dashboard</a></li> -->
+                 <li>
+                    <a href="#" class="feat-btn">Pickup & Delivery
+                    <span class="fas fa-caret-down first"></span>
+                    </a>
+                    <ul class="feat-show">
+                       <li><a href="./next.html">Pickup: Choose a Store</a></li>
+                       <li><a href="#">Same-Day Delivery: Set Your Location</a></li>
+                    </ul>
+                 </li>
+                 <li>
+                    <a href="#" class="serv-btn">New
+                    <span class="fas fa-caret-down second"></span>
+                    </a>
+                    <ul class="serv-show">
+                       <li><a href="./new.html">New (174)</a></li>
+                      </ul>
+                 </li>
+                 <li><a href="#">Brand</a></li>
+                 <li><a href="#">Concerns</a></li>
+                 <li><a href="#">Formulation</a></li>
+                 <li><a href="#">Color Family</a></li>
+                 <li><a href="#">Benefits</a></li>
+                 <li><a href="#">Coverage</a></li>
+                 <li><a href="#">Price Range</a></li>
+                 <li><a href="#">Bristle Type</a></li>
+                 
+                 
+              </ul>
+           </nav>
+           <div class="content">
+              <!-- <div class="header">
+                 Sidebar Menu with sub-menu
+              </div> -->
+            
+           </div>
+           <script>
+              $('.btn').click(function(){
+                $(this).toggleClass("click");
+                $('.sidebar').toggleClass("show");
+              });
+                $('.feat-btn').click(function(){
+                  $('nav ul .feat-show').toggleClass("show");
+                  $('nav ul .first').toggleClass("rotate");
+                });
+                $('.serv-btn').click(function(){
+                  $('nav ul .serv-show').toggleClass("show1");
+                  $('nav ul .second').toggleClass("rotate");
+                });
+                $('nav ul li').click(function(){
+                  $(this).addClass("active").siblings().removeClass("active");
+                });
+           </script>
+
+           </div>
+       
+        <div id="productright">
+          
+          <div id="product1">
+              <div class="box1">
+            <h2>New</h2>
+            <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/new.svg"
+            alt="" height="80px"width="45px"/>
+          </div>
+
+          <div class="box1">
+            <h2>Bestsellers</h2>
+            <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/bestsellers.svg"
+            alt="" height="80px"width="45px"/>
+          </div>
+
+          <div class="box1">
+            <h2>Clean</h2>
+            <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/clean_beauty32.svg"
+            alt="" height="80px"width="45px"/>
+          </div>
+
+          <div class="box1">
+            <h2>Vegan</h2>
+            <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/Icon_Vegan.svg"
+            alt="" height="80px"width="45px"/>
+          </div>
+
+          <div class="box1">
+            <h2>Mini Size</h2>
+            <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/minis.svg"
+            alt="" height="80px"width="45px"/>
+          </div>
+
+          <div class="box1">
+            <h2>Lip Quiz</h2>
+            <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/lip_quiz.svg"
+            alt="" height="80px"width="45px"/>
+          </div>
+
+          <div class="box1">
+            <h2>Foundation Quiz</h2>
+            <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/foundation_quiz.svg"
+            alt="" height="80px"width="45px"/>
+          </div>
+
+          <div class="box1">
+            <h2>Cruelty-Free</h2>
+            <img src="https://www.sephora.com/contentimages/meganav/icons/crueltyfree.svg"
+            alt="" height="80px"width="45px"/>
+          </div>
+        
+          </div>
+          <p>174 Results</p>
+          <div id="product">
+            <!-- ...product data -->
+          </div>
+        </div>
+       </div>
+</body>
+</html>
+<script src="./new.js"></script>
+<script type="module">
+  import {navimp,footimp} from "/sephoraclone/navbar/navimp.js"
+  document.querySelector("#navbar").innerHTML=navimp();
+
+  
+  document.querySelector("#footer").innerHTML=footimp();
+
+</script>
+<script src="/sephoraclone/navbar/navbar.js"></script>
+<script src="/sephoraclone/navbar/signup.js"></script>
