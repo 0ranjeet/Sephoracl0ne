@@ -54,3 +54,20 @@ JavaScript : 63.5%
 ## Cart-
 * This the cart page here user can checkout .
 ![name-of-you-image](https://github.com/0ranjeet/sephoraclone/blob/main/images/Screenshot%202022-06-18%20171322.png?raw=true)
+
+
+## Our Team Members:-
+* Ashwini Radakar
+* Priti Kumari
+* Ranjeet Sahoo
+* Sachin Bhuralal Chavan
+* Yogendra Kokate
+
+## Learnings -
+We all became proficient in reading the code of team members. 
+How to work and communicate with a team.
+How to be more efficient and productive at the same time.
+Here I get to know how the team works, how to keep cool even under pressure conditions, how to keep myself and my teammates motivated throughout the ups and downs.
+At last, I would like to thank our mentors and my team members for their support & guidance during the project.
+Source Code :https://github.com/0ranjeet/Sephoracl0ne
+(Our GitHub Link)
