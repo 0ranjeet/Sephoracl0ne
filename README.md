@@ -1,4 +1,4 @@
-# Sephoracl0ne
+# Sephoraclone
 # Collaborative Project At Masai School “SephoraClone”
 
 Before I start my blog writing on the clone of the website, I want to thank Masai School for this great opportunity and for providing this great platform to enhance my coding and life skills.
@@ -16,11 +16,11 @@ We have tried our best to clone the replica of the website.
 
 
 ## Tech Stacks used -
-HTML :  
+HTML :  23.5%
 >
-CSS : 
+CSS : 13.5%
 >
-JavaScript : 
+JavaScript : 63.5%
 
 ## Some Glimpse and Screenshots of our website:-
 
