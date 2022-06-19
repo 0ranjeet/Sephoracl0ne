@@ -28,11 +28,11 @@
 </div>
 </div>
 <div id="Total" >
-<p id="Merchandise">Merchandise Subtotal $00</p>
+<p id="Merchandise"></p>
 <p id="Handling">Shipping & Handling $00</p>
 <p id="tax">Estimated Tax 00</p>
 <hr>
-<b id="ETOTAL">Estimated Total  $00</b>
+<b id="ETOTAL"></b>
 <hr>
 <p id="promo">View featured offers <span><i class="fa-solid fa-chevron-right"></i></span></p>
 <input type="text" placeholder="Promo or Reward Code" id="reward">
@@ -71,7 +71,7 @@
     function order(){
         window.location.href="paymet.html"
     }
-    var userCart = JSON.parse(localStorage.getItem("array")) || []
+    var userCart = JSON.parse(localStorage.getItem("basketItem")) || []
 
 
 var cartMrpTotal = userCart.reduce(function(sum,element){
