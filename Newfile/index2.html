@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/0c430de460.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="sephora_img">
+<img src="https://www.sephora.com/img/ufe/logo.svg" alt="">
+    </div>
+   
+    <div id="Check-out">
+
+<div id="Shipping_ad">
+    <h2>Checkout</h2>
+     <hr>
+<div id="Shipping">
+    <h2>Shipping Address</h2>
+<div id="container">
+   
+</div>
+<hr>
+</div>
+</div>
+<div id="Total" >
+<p id="Merchandise">Merchandise Subtotal $00</p>
+<p id="Handling">Shipping & Handling $00</p>
+<p id="tax">Estimated Tax 00</p>
+<hr>
+<b id="ETOTAL">Estimated Total  $00</b>
+<hr>
+<p id="promo">View featured offers <span><i class="fa-solid fa-chevron-right"></i></span></p>
+<input type="text" placeholder="Promo or Reward Code" id="reward">
+<hr>
+<button id="placeorder" onclick="order()">Place Order</button>
+</div>
+    </div>
+    <div id="Term">
+        <p>© 2022 Sephora USA, Inc. All rights reserved. <span>Terms of Use</span> <span>| Privacy Policy</span> <br>
+
+            1-877-737-4672|TTY: 1-888-866-9845|customerservice@sephora.com</p>
+    </div>
+</body>
+</html>
+<script>
+    var street=JSON.parse(localStorage.getItem("checkout"))
+    Streetobj(street)
+
+    function Streetobj(abc){
+    console.log(abc)
+      for(var i=0;i<abc.length;i++){
+      
+        if(i==abc.length-1){
+             let box=document.createElement("div")
+        let p1 = document.createElement("p")
+        p1.innerText=abc[abc.length-1].name+" "+abc[abc.length-1].last;
+        let p2=document.createElement("p")
+        p2.innerText=abc[abc.length-1].email+" ,"+abc[abc.length-1].phone;
+        let p3=document.createElement("p")
+        p3.innerText=abc[abc.length-1].adres;
+        box.append(p1,p2,p3)
+        document.getElementById("container").append(box)
+        }
+      }
+    }
+    function order(){
+        window.location.href="paymet.html"
+    }
+    var userCart = JSON.parse(localStorage.getItem("array")) || []
+
+
+var cartMrpTotal = userCart.reduce(function(sum,element){
+    return sum + Number(element.Price)
+},0)
+
+console.log(cartMrpTotal)
+document.querySelector("#Merchandise").innerText = "Merchendise subtotal" + "   "+ "$" + Number(cartMrpTotal).toFixed(2)
+document.querySelector("#ETOTAL").innerText = "Estimated Total" + "   "+ "$" + Number(cartMrpTotal).toFixed(2)
+
+
+</script>

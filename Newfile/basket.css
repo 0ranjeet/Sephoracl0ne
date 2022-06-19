@@ -1,0 +1,110 @@
+#Basketcon{
+    display: flex;
+    height: auto;
+    width: 70%;
+    margin: auto;
+}
+#getit{
+height: auto;
+width: 65%;
+background-color: #F6F6F8;
+padding: 10px 15px;
+box-sizing: border-box;
+
+}
+#paypal{
+height: 500px;
+width: 30%;
+border: 1px solid rgb(134, 127, 127);
+margin-left: 4%;
+padding: 10px 15px;
+box-sizing: border-box;
+}
+#free{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    
+}
+#free>#freeship{
+color: none;
+}
+#freediv{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 8%;
+}
+#free1{
+height: 100px;
+width: 50%;
+box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+padding: 10px;
+box-sizing: border-box;
+}
+#free2{
+height: 100px;
+width: 50%;
+box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+margin-left: 2%;
+padding: 10px;
+box-sizing: border-box;
+}
+#newArrival{
+    height: 40px;
+    width: 30%;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 30%;
+}
+#cartempty{
+    margin-left: 28%;
+    font-size: medium;
+}
+#calc{
+    font-size: small;
+}
+#palimg{
+height: 50px;
+width: 100%;
+border-radius: 15px;
+font-size: medium;
+margin-top: 4%;
+background-color: white;
+}
+#palimg>a>img{
+    width: 50%;
+    height: 100%;
+    border: none;
+  
+}
+#checkouitem{
+    height: 50px;
+width: 100%;
+border-radius: 15px;
+background-color:#ca333a;
+color:white;
+border: none;
+}
+#checkouitem:hover{
+    background-color: red;
+}
+#mbasket{
+    margin-left: 15%;
+}
+#box1{
+ height: auto;
+ width: 100%;
+}
+.remove-button{
+    width: 20%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/0c430de460.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="sephora_img">
+<img src="https://www.sephora.com/img/ufe/logo.svg" alt="">
+    </div>
+   
+    <div id="Check-out">
+
+<div id="Shipping_ad">
+    <h2>Checkout</h2>
+     <hr>
+<form id="Shipping">
+    <h2>Shipping Address</h2>
+    <input type="text" id="Fname" placeholder="First Name*">
+    <input type="text" id="Lname" placeholder="Last Name*"><br>
+    <input type="text" id="Phone" placeholder="Phone*">
+    <input type="text" name="" id="email" placeholder="Email Address*" > <br>
+    <input type="text" id="Street" placeholder="Street Address*"> 
+    <input type="text" name="Zip" id="zip" placeholder="ZIP/Postal Code*">
+    <label for="zip">Enter ZIP/Postal Code to see City and State/Region.</label> <br>
+    <button id="submit">Save & Continue</button>
+    
+</form>
+</div>
+<div id="Total" >
+<p id="Merchandise">Merchandise Subtotal $00</p>
+<p id="Handling">Shipping & Handling $00</p>
+<p id="tax">Estimated Tax 00</p>
+<hr>
+<b id="ETOTAL">Estimated Total  $00</b>
+<hr>
+<p id="promo">View featured offers <span><i class="fa-solid fa-chevron-right"></i></span></p>
+<input type="text" placeholder="Promo or Reward Code" id="reward">
+<hr>
+<button id="placeorder">Place Order</button>
+</div>
+    </div>
+    <div id="Term">
+        <p>© 2022 Sephora USA, Inc. All rights reserved. <span>Terms of Use</span> <span>| Privacy Policy</span> <br>
+
+            1-877-737-4672|TTY: 1-888-866-9845|customerservice@sephora.com</p>
+    </div>
+</body>
+</html>
+<script>
+    document.getElementById("Shipping").addEventListener("submit",addres)
+
+    let checkArr=JSON.parse(localStorage.getItem("checkout")) ||  []
+    function addres(){
+        event.preventDefault()
+        alert("Hello People")
+
+        checkobj={
+            name:document.getElementById("Fname").value,
+            last:document.getElementById("Lname").value,
+            email:document.getElementById("email").value,
+           phone:document.getElementById("Phone").value,
+           adres:document.getElementById("Street").value,
+        }
+        checkArr.push(checkobj)
+        localStorage.setItem("checkout",JSON.stringify(checkArr))
+        console.log(checkArr)
+        window.location.href="index2.html"
+    }
+
+    var userCart = JSON.parse(localStorage.getItem("array")) || []
+    var cartMrpTotal = userCart.reduce(function(sum,element){
+    return sum + Number(element.sPrice)
+},0)
+
+document.querySelector("#Merchandise").innerText = "Merchendise subtotal" + "   "+ "$" + Number(cartMrpTotal).toFixed(2)
+document.querySelector("#ETOTAL").innerText = "Estimated Total" + "   "+ "$" + Number(cartMrpTotal).toFixed(2)
+
+
+</script>
