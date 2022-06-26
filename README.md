@@ -57,11 +57,11 @@ JavaScript : 63.5%
 
 
 ## Our Team Members:-
-* Ashwini Radakar
-* Priti Kumari
-* Ranjeet Sahoo
-* Sachin Bhuralal Chavan
-* Yogendra Kokate
+*  <a href="https://github.com/ashwiniradkar123">Ashwini Radakar<a/>
+*  <a href="https://github.com/pritikumari9161">Priti Kumari<a/>
+* <a href="https://github.com/0ranjeet">Ranjeet Sahoo<a/>
+* <a href="https://github.com/Schavan9673">Sachin Bhuralal Chavan<a/>
+* <a href="https://github.com/Yogendrakokate">Yogendra Kokate<a/>
 
 ## Learnings -
 We all became proficient in reading the code of team members. 
