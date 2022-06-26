@@ -29,12 +29,12 @@ JavaScript : 63.5%
 * This is the main landing page of our website. Here clicking on any option on the Navbar will redirect the user to the respective  Page.
 * It is fully functional and responsive.
 
-![name-of-you-image](https://github.com/0ranjeet/sephoraclone/blob/main/images/Screenshot%202022-06-18%20171032.png?raw=true)
+![name-of-you-image](https://github.com/0ranjeet/Sephoracl0ne/blob/main/images/Screenshot%202022-06-26%20085218.png?raw=true)
 ## Sign In From -
 
 * Here we have a sign in window, if visiter existing user then he can sign in by entering his/her credential like email and password 
 * After filling corect creadential user will be redirect to the home page proceed further.
-![name-of-you-image](https://github.com/0ranjeet/sephoraclone/blob/main/images/Screenshot%202022-06-18%20171355.png?raw=true)
+![name-of-you-image](https://github.com/0ranjeet/Sephoracl0ne/blob/main/images/Screenshot%202022-06-26%20085431.png?raw=true)
 
 ## Sign Up From -
 
@@ -42,18 +42,18 @@ JavaScript : 63.5%
 * After clicking on need a new account, user will redirected to the sign up page
 * here user will get a from to fill
 * After creating new account he will be redirected to the home page to proceed further
-![name-of-you-image](https://github.com/0ranjeet/sephoraclone/blob/main/images/Screenshot%202022-06-18%20171322.png?raw=true)
+![name-of-you-image](https://github.com/0ranjeet/Sephoracl0ne/blob/main/images/Screenshot%202022-06-26%20085514.png?raw=true)
 
 
 ## Product Page  -
 * In this paga user will be able to see produts & add product to cart ,filter prpoduct according to his preference.
-![name-of-you-image](https://raw.githubusercontent.com/0ranjeet/sephoraclone/766aa6a92f00e392efb504ccd1e34da77012738b/images/Screenshot%202022-06-19%20192817.png)
+![name-of-you-image](https://github.com/0ranjeet/Sephoracl0ne/blob/main/images/Screenshot%202022-06-26%20085541.png?raw=true)
 ## Product Detail-
 * In this page user can view any product details it will apppear on clicking on any product images.
-![name-of-you-image](https://raw.githubusercontent.com/0ranjeet/sephoraclone/766aa6a92f00e392efb504ccd1e34da77012738b/images/Screenshot%202022-06-19%20193451.png)
+![name-of-you-image](https://github.com/0ranjeet/Sephoracl0ne/blob/main/images/Screenshot%202022-06-26%20085600.png?raw=true)
 ## Cart-
 * This the cart page here user can checkout .
-![name-of-you-image](https://github.com/0ranjeet/sephoraclone/blob/main/images/Screenshot%202022-06-18%20171322.png?raw=true)
+![name-of-you-image](https://github.com/0ranjeet/Sephoracl0ne/blob/main/images/Screenshot%202022-06-26%20085622.png?raw=true)
 
 
 ## Our Team Members:-
