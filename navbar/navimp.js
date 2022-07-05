@@ -32,8 +32,8 @@ function navimp(){
                 
                     <div id="btm2">
                     <div id="btm2menu">
-                        <div onmouseover="newm(this)"  id="new"><a href="/makeup/new.html">New</a></div>
-                        <div onmouseover="newb(this)"  id="brands"><a href="/sephoraproject/brands.html">Brands</a></div>
+                        <div onmouseover="newm(this)" onmouseleave="newmn(this) id="new"><a href="/makeup/new.html">New</a></div>
+                        <div onmouseover="newb(this)" onmouseleave="newmn(this) id="brands"><a href="/sephoraproject/brands.html">Brands</a></div>
                         <div id="makeup" onmouseover="newmakeup(this)"><a href="/makeup/makeup.html">Makeup</a></div>
                         <div id="skincare" onmouseover="newskin(this)"><a href="">Skincare</a></div>
                         <div id="hair"><a href="">Hair</a></div>
